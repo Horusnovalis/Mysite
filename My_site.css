@@ -68,14 +68,14 @@ header {
 }
 .body {
   width: 100%;
-  padding: 50px;
-  background-color: #ffffff;
+  background: white;
+  padding: 60px 80px;
 }
 
 .body-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 25px;
+  gap: 40px 60px;
 }
 
 .body-box {
@@ -83,24 +83,39 @@ header {
   align-items: flex-start;
   gap: 20px;
 
-  background-color: #f4efef;
-  padding: 25px;
-  border-radius: 12px;
+  padding-bottom: 30px;
+}
 
-  color: rgb(31, 30, 30);
+.body-box:nth-child(1),
+.body-box:nth-child(2) {
+  border-bottom: 1px solid #dcdcdc;
 }
 
 .icon {
-  font-size: 40px;
-  min-width: 50px;
+  width: 70px;
+  height: 70px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+
+  background-color: #74ad9a;
+  color: white;
+
+  font-size: 30px;
+  flex-shrink: 0;
 }
 
 .text-content h2 {
+  color: #74ad9a;
+  font-size: 24px;
+  font-weight: 400;
   margin-bottom: 10px;
-  font-size: 22px;
 }
 
 .text-content p {
-  line-height: 1.6;
-  color: #222222;
+  line-height: 1.7;
+  color: #555;
 }
