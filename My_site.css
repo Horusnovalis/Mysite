@@ -154,3 +154,101 @@ header {
   cursor: pointer;
   font-size: 16px;
 }
+
+.contact {
+  background-color: #30633b;
+  background-size: cover;
+  background-position: center;
+
+  padding: 70px 80px;
+  color: white;
+}
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.contact h2 {
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 40px;
+}
+
+.info-card {
+  display: flex;
+  gap: 15px;
+}
+
+.info-icon {
+  width: 50px;
+  height: 50px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+
+  font-size: 20px;
+}
+
+.info-card h3 {
+  margin-bottom: 8px;
+  font-weight: 400;
+}
+
+.info-card p {
+  font-size: 14px;
+}
+
+.form-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.form-row input {
+  flex: 1;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 12px;
+
+  border: 1px solid rgba(255,255,255,0.5);
+  background: transparent;
+  color: white;
+
+  outline: none;
+}
+
+.contact-form textarea {
+  height: 140px;
+  resize: none;
+  margin-bottom: 20px;
+}
+
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: rgba(255,255,255,0.8);
+}
+
+.contact-form button {
+  background: #4c4f77;
+  color: white;
+
+  border: none;
+
+  padding: 12px 30px;
+
+  cursor: pointer;
+}
