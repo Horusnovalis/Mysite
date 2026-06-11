@@ -109,6 +109,11 @@ header {
   flex-shrink: 0;
 }
 
+.space {
+  height: 50px;
+  background-color: #30633b;
+}
+
 .text-content h2 {
   color: #74ad9a;
   font-size: 24px;
