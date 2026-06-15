@@ -33,6 +33,9 @@ header {
   font-size: 18px;
   transition: 0.5s;
 }
+.option ul li a:hover {
+  color: gray;
+}
 .titre {
   height: 100%;
   display: flex;
