@@ -161,6 +161,11 @@ header {
   color: white;
   cursor: pointer;
   font-size: 16px;
+  transition: 0.3s;
+}
+
+.gallery-btn:hover {
+  background: #21472a;
 }
 
 .contact {
@@ -181,6 +186,19 @@ header {
 .contact h2 {
   margin-bottom: 30px;
   font-weight: 400;
+}
+
+.contact-form button {
+  background: #4c4f77;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-form button:hover {
+  background: #383a59;
 }
 
 .info-grid {
@@ -206,6 +224,12 @@ header {
   background: rgba(255, 255, 255, 0.2);
 
   font-size: 20px;
+}
+
+.info-icon img {
+  width: 65%;
+  height: 65%;
+  object-fit: contain;
 }
 
 .info-card h3 {
