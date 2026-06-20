@@ -310,4 +310,10 @@ footer {
   .info-grid {
     grid-template-columns: 1fr;
   }
+
+  .body,
+  .gallery,
+  .contact {
+    padding: 40px 20px;
+  }
 }
