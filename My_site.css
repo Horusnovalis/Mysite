@@ -292,3 +292,15 @@ footer {
   color: white;
   font-size: 13px;
 }
+
+@media (max-width: 768px) {
+
+  .option {
+    width: 90%;
+  }
+
+  .option ul {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
