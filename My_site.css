@@ -303,4 +303,11 @@ footer {
     flex-direction: column;
     gap: 15px;
   }
+
+  .body-container,
+  .gallery-container,
+  .contact-container,
+  .info-grid {
+    grid-template-columns: 1fr;
+  }
 }
